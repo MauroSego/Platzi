@@ -1,50 +1,42 @@
-/*tipo de selector {
-  propiedad: valor;
-  propiedad-2: valor;
-}*/
-/*selector universal*/
-* {
-  border: 1px solid red;
-  margin: 10px;
+body{
+  font-family: 'Allerta', sans-serif;
 }
-/*selector de etiqueta*/
-header {
-  background: blue;
-}
-
-section {
-  background: purple;
-}
-
-/*selector descendente*/
-
-article h3 {
-  color: green;
-}
-
 
 /*selectores de clase*/
+.titulo{
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+}
 
 .title-a {
-  background: yellow;
+  font-size: 24px;
 }
 
 .title-b {
-  background: salmon;
+  font-size: 50px;
 }
 
 /*selector de id*/
-#header {
-  border: 3px solid black;
+
+
+.guitarras {
+  color: #1f313c;
+}
+.guitarras h2{
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-#portada {
-  border: 3px solid orange;
+.portada {
+  background-image: url('../images/background.png')
 }
-
-#guitarras {
-  border: 3px solid brown;
+.menu{
+  font-size: 24px;
+  display: inline-block;
 }
-
-
-
+.menu li{
+  display: inline-block;
+}
+.logotipo{
+  display: inline-block;
+}
