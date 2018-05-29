@@ -66,6 +66,7 @@ body{
   padding: 10px;
   margin: 10px;
   border: 1px solid #1f313c;
+  border-radius: 5px;
 }
 .guitarra ol{
   padding: 0;
@@ -87,4 +88,18 @@ body{
 .contenedor-guitarra-b{
   margin-left: 370px;
   padding-left: 20px;
+}
+.footer{
+  background: #273b47;
+}
+.contacto img{
+  display: block;
+
+}
+.contacto strong{
+  display: block;
+}
+.contacto a {
+  color: white;
+  text-decoration: none;
 }
