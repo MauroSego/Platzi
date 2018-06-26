@@ -2,7 +2,37 @@ body{
   font-family: 'Allerta', sans-serif;
   margin: 0;
 }
-
+table{
+  width: 100%;
+}
+th{
+  background: #273b47;
+  color: white;
+  padding: 10px 20px;
+  text-align: left;
+}
+td{
+  padding: 20px;
+}
+table, td, th{
+  border: 1px solid #273b47;
+  border-collapse: collapse;
+}
+input, textarea{
+  outline: 0;
+}
+input:focus, textarea:focus{
+  background: lightgray;
+}
+.contenedor{
+  width: 800px;
+  margin: auto;
+  position:relative;
+}
+.background{
+  background-image: url('../images/background.png');
+  background-size: cover;
+}
 /*selectores de clase*/
 .titulo{
   font-size: 70px;
@@ -10,7 +40,9 @@ body{
   margin-bottom: 0;
   margin-top: 60px;
 }
-
+.titulo span{
+  text-decoration: underline;
+}
 .title-a {
   font-size: 24px;
   margin-top:0;
@@ -26,6 +58,7 @@ body{
 
 .guitarras {
   color: #1f313c;
+  margin-bottom: 60px !important;
 
 }
 .guitarras h2{
@@ -34,10 +67,11 @@ body{
 }
 
 .portada {
-  background-image: url('../images/background.png');
+  
   color: white;
   padding: 20px;
-  width: 100%
+  width: 100%;
+  height: 500px;
 }
 .portada button{
   margin-bottom: 70px;
@@ -51,6 +85,10 @@ body{
   position: absolute;
   right: 0;
 }
+.menu a{
+  color: white;
+  text-decoration: none;
+}
 .menu li{
   display: inline-block;
   margin-left: 30px;
@@ -59,20 +97,20 @@ body{
   content: '∘';
   font-size: 30px;
   line-height: 20px;
-  color: blue;
 }
 .logotipo{
   display: inline-block;
+  margin-left: 0;
 }
-.contenedor{
-  width: 800px;
-  margin: auto;
-}
+
 .guitarra{
   padding: 10px;
   margin: 10px;
   border: 1px solid #1f313c;
   border-radius: 5px;
+}
+.guitarra.b{
+  height: 190px;
 }
 .guitarra ol{
   padding: 0;
@@ -85,7 +123,6 @@ body{
 .left{
   float: left;
   position: relative;
-  top: 80px;
 }
 .contenedor-guitarra-a{
   margin-right: 370px;
@@ -93,10 +130,12 @@ body{
 }
 .contenedor-guitarra-b{
   margin-left: 370px;
-  padding-left: 20px;
+  position: relative;
+  bottom: 90px;
 }
 .footer{
   background: #273b47;
+  padding: 50px 10px;
 }
 .contacto{
   display: flex;
@@ -124,7 +163,6 @@ body{
   display: flex;
   width: 400px;
   color: white;
-  padding: 50px 10px;
 }
 .col1, .col2{
   display: flex;
@@ -136,32 +174,27 @@ body{
 .col2{
   align-items: flex-start;
 }
+.col2 .button{
+  margin-top: 20px;
+}
 .intereses label{
   font-size: 12px;
 }
 .formulario label, .sexo, .intereses{
   margin-bottom: 10px;
 }
+
 .button{
-  border-radius: 5px;
+  border-radius: 8px;
   border: none;
   background: #fd324e;
   color: white;
-  padding: 7px;
+  padding: 7px 12px;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+  background: linear-gradient(to left, #fe344e, #ff7250);
 }
-table{
-  width: 100%;
-}
-th{
-  background: #273b47;
-  color: white;
-  padding: 10px 20px;
-  text-align: left;
-}
-td{
-  padding: 20px;
-}
-table, td, th{
-  border: 1px solid #273b47;
-  border-collapse: collapse;
+.tabla{
+  margin: 50px 0;
 }
